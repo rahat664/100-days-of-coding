@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face{
+  font-family: "Booter - Zero Zero";
+  src: url("Font/booterzz\ \(1\).ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+  box-sizing: border-box;
+  font-family: Raleway;
+  color: #777;
+  text-align: justify;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+}
+.nav li{
+  display: inline; 
+}
+.nav a{
+  display: inline-block;
+  padding: .5cm;
+  color: white;
+  text-decoration: none;
+}
+.nav a:hover{
+  background-color: rgba(255, 255, 255, .3);
+}
+.main-nav{
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, .3); 
+}
+.nav u1{
+  margin: 0;
+}
+.main-header{
+  background-color: rgba(0,0,0, .6);
+  background-image: url(image/back.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 10px;
+}
+.my-name{
+  text-align: center;
+  margin:0;
+  font-size: 4em;
+  font-family: "Booter - Zero Zero";
+  font-weight: normal;
+  color: white;
+}
+.my-name-large{
+  font-size: 6em;
+}
+.content-section{
+  margin: 1em;
+}
+.container{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+.section-header{
+  font-family: "Metal Mania";
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+}
+.about-my-image{
+  float: left;
+  height: 220px;
+  width: 220px;
+  margin: 15px;
+  border-radius: 50%;
+}
+.main-footer{
+ background-color: #56CCF2;
+ color: white;
+ padding: .25em 0;
+}
+.main-footer-container{
+ display: flex; 
+ align-items: center;
+}
+.main-footer-container u1 {
+ flex-grow:1;
+ text-align: end;
+}
+.footer-nav li{
+ padding: 0 .5em;
+}
+.footer-nav img{
+ width: 30px;
+ height: 30px;
+}
+.main-footer-container u1 li{
+ display: inline;
+ align-items: flex-end;
+}
+.btn{
+ text-align: center;
+ vertical-align: middle;
+ padding: .67em;
+ cursor:pointer;
+}
+.btn-header{
+ margin:.5em 15% 2em 15%;
+ color: white;
+ border: 2px solid #2d9cdb ;
+ background-color: rgba(255, 255, 255, .3);
+ border-radius: 0;
+ font-size: 1.5em;
+ font-weight: lighter;
+ padding-left: 2em;
+ padding-right: 2em;
+}
+.btn-header:hover{
+ background-color: rgba(255, 255, 255, .3);
+}
+.btn-play{
+ display: block inline;
+ margin: 0 auto;
+ color: #2d9cdb;
+ font-size: 4em;
+ border-radius: 50%;
+ padding: 0;
+ width: 100px;
+ height: 100px;
+ background-color: rgba(255, 255, 255, .3);
+
+}
+.code-row{
+ border-bottom: 1px solid black;
+ padding-bottom: 1em;
+ margin-bottom: 1em;
+}
+.code-row:last-child{
+ border-bottom: none;
+}
+.code-item{
+ display: inline-block;
+ padding-right: .5em;
+}
+.code-num{
+ color: #555;
+ font-weight: bold;
+ width: 11%;
+}
+.code-name{
+ width: 24%;
+}
+.code-btn{
+ max-width: : 19%;
+}
+.btn-primary{
+ color: white;
+ background-color: #56CCF2;
+ border:none;
+ font-weight: bold;
+}
+.btn-primary a{
+ max-width: 19%;
+ color: white;
+ background-color: #56CCF2;
+ border:none;
+ border-radius: .1em;
+ font-weight: bold;
+}
+.btn-primary:hover{
+ background-color: #2d9cdb;
+}
+.code-item{
+ margin: 30px;
+}
+.code-item-title{
+ display: block;
+ width: 100%;
+ text-align: center;
+ font-weight: bold;
+ font-size: 1.5em;
+ color:#333;
+ margin-bottom: 15px;
+
+}
+
+.code-item-image{
+ height: 160px;
+}
+.code-item-details{
+ display: flex;
+ align-items: center;
+ padding: 5px;
+}
+.code-item-solution{
+ flex-grow: 1;
+ color: #333;
+}
+.code-items{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
